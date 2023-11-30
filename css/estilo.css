@@ -38,6 +38,22 @@ ul li{
 }
 footer{
     width: 100%;
+    background-color: #7b9e35;
+}
+#ul li:last-child{
+    border-right: none;
+}
+#MenuFooter{
+    flex: 20%;
+}
+#ContenidoFooter{
+    flex: 40%;
+    text-align: justify;
+    color: azure;
+}
+#SocialFooter{
+    flex: 40%;
+    text-align: center;
 }
 #imagenNombreRedondo{
     width: 130px;
@@ -128,4 +144,31 @@ h1{
 .DisenoBoton:hover{
     opacity: 50%;
     Cursor: Pointer;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #550101;
+    font-size: 15px;
+}
+.SocialesFooter li{
+    border: none;
+}
+li img{
+    width: 5%;
+    padding: 20px 20px 20px 20px;
+}
+li img:hover{
+    opacity: 60%;
+    cursor: pointer;
+    width: 6%;
+}
+#MarcoFooter{
+    display: flex;
+    padding: 50px;
 }
