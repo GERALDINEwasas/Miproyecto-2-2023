@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacteme.css">
     <title>Document</title>
 </head>
 <body>
@@ -32,38 +33,31 @@
  </div>   
 <!--Aqui pondremos el cuerpo del index-->
 <div id="contenidoCuerpo">
-    <div id="CuerpoImagen">
-        <div id="BorderImagen">
-            <img src="/img/Recurso 1.png" height="400" width="480">
-        </div>
-    </div>
-    <div id="CuerpoDetalle">
-        <h1>Bienvenido</h1>
-        <div id="DatosDetalle">
-            <P>Todos estamos familiarizados con la famosa frase «la primera impresión es la que cuenta».
-                 Si llegas tarde a una entrevista de trabajo causarás una mala primera impresión. 
-                 Lo mismo sucede si comes ajo y olvidas lavarte los dientes antes de una primera cita.
-                 El principio de la «primera impresión» no solo se aplica a las interacciones en persona, 
-                 sino también a las interacciones por correo electrónico: 
-                 cuando envías un mensaje de bienvenida a un nuevo cliente o suscriptor de tu blog o boletín de noticias,
-                 das la primera impresión en nombre de tu marca.</P>
-        </div>
-        <div id="Botones">
-            <div id="BotonFavorito">
-                <div id="MarcoFavorito" class="DisenoBoton">
-                    Mi persona favorita
-                </div>
-            </div>
-            <div id="BotonUbicacion">
-                <div id="MarcoUbicacion" class="DisenoBoton">
-                    Mi ubicacion
-                </div>
-            </div>
-        </div>
+    <div id="formularioDatos">
+        <fieldset>
+            <legend>Mis Datos</legend>
+            <form>
+                <label>Nombre</label>
+                <input type="text" placeholder="ingrese Su Nombre">
+                <label>Apellido</label>
+                <input type="text" placeholder="ingrese Su Apellido">
+                <label>Edad</label>
+                <input type="number" placeholder="ingrese Su Edad">
+                <select>
+                    <option value="cbba">Cochabamba</option>
+                    <option value="cbba">Tarija</option>
+                    <option value="cbba">Santa Cruz</option>
+                    <option value="cbba">Potosi</option>
+                    <option value="cbba">La Paz</option>
+                </select>
+                <label>Description</label>
+                <testarea></testarea>
+                <input type="button" value="INSERTAR">
+            </form>
+        </fieldset>
     </div>
 </div>
 <!--Aqui pondremos el pie de pagina-->
-
 
 <footer>
     <id id="MarcoFooter">
